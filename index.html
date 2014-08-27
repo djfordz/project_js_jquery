@@ -6,10 +6,29 @@
 <meta name="description" content="David Ford's build for The Odin Project's Javascript/jQuery practice.">
 <meta name="author" content="David Ford">
 <meta name="viewport" content="width=device-width, user-scalable=yes">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>-->
+<script src="build.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="clone()">
+<header id="header">
+    <div>
+        <h1>Etch-a-Sketch{ly}</h1>
+        <h2>Practice Project for <a href="http://www.theodinproject.com" title="The Odin Project">The Odin Project</a></h2>
+    </div>
+    <div id="info">
+        <h4>Position</h4>
+        <div id="box">
+            <p id="log">0</p>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="reset" value="Reset">Reset</button>
+    </div>
+</header>
+<div id="canvas">
+<div id="innerCanvas"></div>
+</div>
 </body>
 </html>
