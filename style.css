@@ -84,7 +84,7 @@ a:hover {
     width: 16px;
     height: 16px;
     display: inline-block;
-    border: 1px solid #222;
+  /*  border: 1px solid #222; */
     box-sizing: border-box;
     background-color: white;
 }
