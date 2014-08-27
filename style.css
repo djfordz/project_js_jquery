@@ -41,7 +41,7 @@ a:hover {
     color: #CBC404;
 }
 #canvas {
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     padding: 0;
     width: 83%;
     height: 100%;
