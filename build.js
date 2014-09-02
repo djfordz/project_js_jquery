@@ -71,7 +71,7 @@ function clone() {
 // compute #canvas width
     function canvasWidth() {
          var canvasWidth = computeStyle('canvas', 'width');
-        canvasWidth = parseInt(fillDivWidth);
+        canvasWidth = parseInt(canvasWidth);
         return canvasWidth;
     }
 
